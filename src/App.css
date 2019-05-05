@@ -19,9 +19,22 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.BusinessCards {
+  color: black;
+  /* overflow-x: scroll; */
+  overflow: auto;
+  white-space: nowrap;
+  height: 100%;
+  /* position: relative; */
+  
+  /* z-index: -1; */
 }
+
+.BusinessCard {
+  padding: 10px;
+}
+
+
 
 @keyframes App-logo-spin {
   from {
